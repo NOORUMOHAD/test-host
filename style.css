@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+html,body
+{
+    padding: 0;
+     margin: 0;
+}
+
+
+body
+{
+    background-color: #011;
+    color: antiquewhite;
+}
+div.main
+{
+    width: 100%;
+}
+.first
+{
+    display: inline-block;
+    background-color: green;
+    width: 50%;
+    float: left;
+}
+
+div.sec
+{
+    display: inline-block;
+    background-color: red;
+    width: 50%;
+}
+@media only screen and (max-width:500px)
+{
+    div.first
+    {
+        background-color: #fff;
+    }
+    div.sec
+    {
+        background-color: #000;
+    }
+}
